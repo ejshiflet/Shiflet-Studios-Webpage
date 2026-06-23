@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+    <body>
+
+        <header id="header">
+            <div id="logo-title-container">
+                <div id="img-border"><img id="header-img" src="SS-Logo.png"></div>
+                <h1 id="header-title">Shiflet Studios</h1>
+            </div>
+            <nav id="nav-bar">
+                <span class="nav-link-container"><a class="nav-link" href="#about-me">About Me</a></span>
+                <span class="nav-link-container"><a class="nav-link" href="#pricing">Pricing</a></span>
+                <span class="nav-link-container" id="contact-link-container"><a class="nav-link" id="contact-link" href="#contact">Contact</a></span>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="gallery">
+                <div id="gallery-container">
+                    <img class="gallery-image" src="photo1.png">
+                    <img class="gallery-image" src="photo2.png">
+                    <img class="gallery-image" src="photo3.png">
+                </div>
+            </section>
+
+            <section id="about-me">
+                <img id="headshot" src="headshot1.png">
+                <div id="about-me-paragraph-container">
+                    <h2 id="about-me-title">Meet The Photographer</h2>
+                    <div><p id="paragraph-1" class="about-me-paragraphs" >Hello, my name is Elijah Shiflet, the photographer behind Shiflet Studios. I specialize in portrait photography with a focus on capturing your vision through real moments that feel natural and genuinely you. My approach is relaxed and collaborative, allowing you to feel comfortable in front of the camera.</p></div>
+                    <div><p id="paragraph-2" class="about-me-paragraphs">I hold a master’s degree in forensic chemistry, a background that shaped my attention to detail, patience, and appreciation for telling stories through careful observation. While my academic path trained me to analyze and document with precision, photography allows me to pursue my creative passion.</p></div>
+                    <div><p id="paragraph-3" class="about-me-paragraphs">Whether we’re creating portraits for a personal milestone, professional use, or simply to capture a moment in time, my goal is to deliver images that feel timeless and meaningful. I believe the best photographs come from trust, connection, and thoughtful craftsmanship, and I’m dedicated to creating an experience that is just as enjoyable as the final images.</p></div>
+                </div>
+            </section>
+
+            <section id="pricing">
+                <h2 id="pricing-title" >Services</h2>
+                <div class="pricing-container">
+                <div class="pricing-card">
+                    <img class="service-image" src="service1.png">
+                    <h2 class="service-type" >Headshot Event</h2>
+                    <hr>
+                    <p>$50</p>
+                    <p>Up to 20 Minutes</p>
+                    <p>3 Edited Photos</p>
+                    <p>1 Location</p>
+                    <p>Digital Photo Gallery</p>
+                    <button class="choose-service">Select Service</button>
+                </div>
+                <div class="pricing-card">
+                    <img class="service-image" src="service2.png">
+                    <h2 class="service-type">Graduation Package</h2>
+                    <hr>
+                    <p>$80</p>
+                    <p>Up to 45 Minutes</p>
+                    <p>8-10 Edited Photos</p>
+                    <p>1 Location</p>
+                    <p>Digital Photo Gallery</p>
+                    <button class="choose-service">Select Service</button>
+                </div>
+                <div class="pricing-card">
+                    <img class="service-image" src="service3.png">
+                    <h2 class="service-type">Family Package</h2>
+                    <hr >
+                    <p>$250</p>
+                    <p>Up to 30 Minutes</p>
+                    <p>8-10 Edited Photos</p>
+                    <p>1 Location</p>
+                    <p>Digital Photo Gallery</p>
+                    <button class="choose-service">Select Service</button>
+                </div>
+            </div>
+            </section>
+        </main>
+
+        <footer>
+            <section id="contact">
+                <div class="footer-container">
+
+                    <div class="footer-column branding">
+                        <h3>Shiflet Studios</h3>
+                        <p class="copyright">&copy; 2026. All rights reserved.</p>
+                    </div>
+
+                    <div class="footer-column socials">
+                        <h4>Connect</h4>
+                        <ul>
+                        <li><a href="https://www.instagram.com/shifletstudios/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@shifletstudios" target="_blank">TikTok</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=61589223472948" target="_blank">Facebook</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column contact-newsletter">
+                        <h4>Inquiries</h4>
+                        <a href="mailto:hello@email.com" class="footer-email">ShifletStudios@email.com</a>
+                        
+                        <div class="newsletter-box">
+                            <p>Subscribe to the newsletter</p>
+                            <form id="form" class="newsletter-form" action="https://www.freecodecamp.org/email-submit" onsubmit="event.preventDefault();">
+                                <input id="email" name="email" type="email" placeholder="Your email address" required>
+                                <input id="submit" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </footer>
+    </body>
+
+</html>
